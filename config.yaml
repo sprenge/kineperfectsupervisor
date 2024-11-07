@@ -1,0 +1,22 @@
+emailservers:
+  my_server:
+    smtp_server: tbc
+    smtp_port: 587
+    sender_email: aaa
+    recipient_email: bbb
+    password: ccc
+credentials:
+  maintenance:
+    username: my_user_name
+    password: provide.a.5259.complex.password.please
+sites:
+  kineperfect:
+    fqdn: kineperfect.duckdns.org
+    port: 8128
+    login: abc
+    password: def
+    email: my_server
+    db_copies: 3
+    alive_check_every: 60 # seconds
+    backup_every: 1 # days
+    limit_nbr_videos_per_backup: 5 # for instance max 5 downloads per backup attempt
